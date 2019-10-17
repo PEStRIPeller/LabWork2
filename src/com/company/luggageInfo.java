@@ -1,6 +1,6 @@
 package com.company;
 
-public class luggageInfo {
+     class LuggageInfo {
      private String name;
      private int flightNumber;
      private int luggageCheckNumber;
@@ -19,10 +19,10 @@ public class luggageInfo {
         return luggageWeight;
     }
 
-    public luggageInfo() {
+    public LuggageInfo() {
     }
 
-    public luggageInfo(String name, int flightNumber, int luggageCheckNumber, int luggagePlacesQuantity, double luggageWeight) {
+    public LuggageInfo(String name, int flightNumber, int luggageCheckNumber, int luggagePlacesQuantity, double luggageWeight) {
         this.name = name;
         this.flightNumber = flightNumber;
         this.luggageCheckNumber = luggageCheckNumber;
